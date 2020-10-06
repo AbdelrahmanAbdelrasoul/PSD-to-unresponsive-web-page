@@ -1,0 +1,402 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97,99,104);
+    max-width: 1400px;
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(97,99,104); 
+}
+
+h1,h2,h4{
+    color: rgb(36,47,81);
+}
+
+p{
+    color: rgb(97,99,104); 
+}
+
+#feature1li1{
+    color: rgb(245,87,103);
+}
+#feature1li2{
+    color: rgb(37,99,255);
+}
+#feature1li3{
+    color: rgb(64,151,95);
+}
+
+/* Header */
+nav img{
+    float: left;
+}
+
+nav ul{
+    margin-left: 35%;
+    padding-top: 10px;
+}
+
+nav li{
+    float: left; 
+    margin-right: 5%
+    
+}
+
+
+nav:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav .button{
+    float: left;
+    background: rgb(37,0,249);
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin-top: 0;
+    position: relative;
+    top: -30px;
+}
+
+/* Home */
+.home div{
+    height: 820px;
+    background: url(images/Background1.jpg);
+    position: relative;
+}
+.home h1{
+    width: 600px;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+.home p{
+    font-size: 1.1em;
+    font-weight: 1.5em;
+    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+}
+.home .button a{
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    background: rgb(37,0,249);
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin-top: 0;
+}
+.home #demo{
+    position: absolute;
+    top: 610px;
+    left: 250px;
+    color: rgb(37,0,249)
+}
+.home h4{
+    text-align: center;
+    margin: 40px 0;
+}
+.home img{
+    width: 100%;
+}
+
+/* Features */
+
+/* Feature 1 */
+.feature1{
+    margin-left: 30px;
+}
+.feature1 div{
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.feature1li img{
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+    
+}
+.feature1 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+
+}
+.feature1 p{
+    font-size: 18px;
+}
+.feature1li h4{
+    font-size: 20px;
+}
+.feature1li{
+    margin-right: 15px;
+    clear: both;
+    text-align: left;
+}
+
+/* Feature 2 */
+.feature2{
+    margin-top: 60px;
+}
+.feature2 h2{
+    font-size: 45px;
+    width: 40%;
+    margin: 15px 30px;
+    float: left;
+}
+#feature2{
+    float: right;
+    font-size: 20px;
+    width: 40%;
+    margin: 80px 20px
+}
+.feature2 ul{
+    display: flex;
+    clear: both;
+    margin-top: 45px;
+}
+.feature2li h4{
+    font-size: 1.3em;
+}
+.feature2li{
+    width: 28%;
+    margin: .5% 2%;
+}
+
+/* Feature 3 */
+.feature3 img{
+    float: left;
+}
+.feature3 div{
+    float: right;
+    width: 50%;
+    padding-top: 15%;
+    
+}
+.feature3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.feature3 h2{
+    font-size: 2.2em;
+    width: 60%;
+}
+.feature3 p{
+    width: 70%;
+}
+.feature3 .button{
+    background: rgb(37,0,249);
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-radius: 30px;
+    margin-top: 0;
+}
+
+/* Feature 4 */
+.feature4{
+    text-align: center;
+    margin-top: 0;
+}
+.feature4 h2{
+    font-size: 2.3em;
+    width: 35%;
+    margin: 0 auto;
+}
+#feature4{
+    width: 50%;
+    margin: 0 auto;
+}
+.feature4 ul{
+    display: flex;
+    clear: both;
+    margin-top: 45px;
+}
+
+/* Feature 5 */
+.feature5{
+    padding-left: 20px;
+}
+.feature5 h2{
+    font-size: 2.3em;
+}
+.feature5 img:nth-child(3){
+    float: right;
+    width: 50%;
+}
+.feature5 ul{
+    float: left;
+    display: flex;
+    width: 43%;
+    margin: 0;
+}
+.feature5 li{
+    margin-right: 40px;
+}
+.feature5 li img{
+    margin-right: 50%;
+}
+.feature5 span{
+    float: left;
+    background: rgb(37,0,249);
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.feature5:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Pricing */
+.pricing{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.pricing b{
+    font-size: 3em;
+    color: rgb(36,47,81);
+}
+.pricing h2{
+    font-size: 2.3em;
+    width: 70%;
+    margin: 0 auto;
+}
+.pricing h4{
+    margin: 0 0;
+}
+#price1{
+    position: absolute;
+    left: 350px;
+}
+#price2{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.pricing .button{
+    background: rgb(37,0,249);
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    display:inline-block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+.demo{
+    color: rgb(37,0,249);
+}
+
+/* Testiminal */
+.testiminal img{
+    float: left;
+}
+.testiminal h2{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testiminal p{
+    margin-bottom: 60px;
+}
+
+/* FAQ */
+.FAQ{
+    text-align: left;
+    margin: 0 15%;
+}
+.plus{
+    position: absolute;
+    right: 200px;
+}
+.FAQ h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+.FAQ p{
+    margin-bottom: 80px;
+}
+.FAQ p:nth-of-type(1){
+    text-align: center;
+    margin: 0 15%;
+    margin-bottom: 80px;
+}
+
+/* Download */
+#banner{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    height: 350px;
+}
+.download h2{
+    font-size: 2.6em;
+    margin-top: 20px;
+    padding-top: 60px;
+}
+.download img{
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer{
+    background: rgb(9,20,46);
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+footer ul{
+    display: flex;
+    margin: 0 20%;
+    text-align: inherit;
+}
+footer li{
+    padding:50px  30px;
+   
+} 
+footer a{
+     color: #fff;
+}
+footer p{
+    margin-top: 40px;
+}
